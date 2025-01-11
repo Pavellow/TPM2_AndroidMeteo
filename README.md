@@ -24,3 +24,5 @@ Il s'agit du README du projet, dedans je mettrai mon avancée dans ce projet
 - 21h09 donc en gros je dois créer une classe d'accès à la base de données, les DTO sont taggués avec @Entity et les DAO avec @DAO ?
 - 21h12 je pense avoir capté les patterns de POO derrière Room, je vais voir ce que je pehx faire là
 - 21h26 inchallah ça marche hein
+- 21h28 pause insta besoin de shitpost
+- 23h09 flemme de continuer je finsi demain
