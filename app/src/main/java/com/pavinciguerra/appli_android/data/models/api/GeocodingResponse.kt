@@ -1,4 +1,4 @@
-package com.pavinciguerra.appli_android.data.models
+package com.pavinciguerra.appli_android.data.models.api
 
 data class GeocodingResponse (
     val resuts: List<GeocodingResult>,
