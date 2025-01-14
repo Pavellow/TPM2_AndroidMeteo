@@ -1,7 +1,7 @@
 package com.pavinciguerra.appli_android.data.models.api
 
 data class GeocodingResponse (
-    val resuts: List<GeocodingResult>,
+    val results: List<GeocodingResult>,
     val generationTime_ms: Double
     )
 
@@ -18,6 +18,7 @@ data class GeocodingResult(
     val country: String,
     val admin1: String?, // ????????? nomenclature de merde
     val admin2: String?, // là ausssi
-    val admin3: String?,
-    val admin4: String
+    val admin3: String?, // là ausssi
+    val admin4: String? // là ausssi
+    //faut faire des efforts parfois
 )

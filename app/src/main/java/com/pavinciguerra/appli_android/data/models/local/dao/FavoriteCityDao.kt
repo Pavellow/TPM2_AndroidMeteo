@@ -5,7 +5,7 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.pavinciguerra.appli_android.data.models.local.FavoriteCity
+import com.pavinciguerra.appli_android.data.models.local.entities.FavoriteCity
 
 @Dao
 interface FavoriteCityDao {

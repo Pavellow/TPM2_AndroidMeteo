@@ -22,10 +22,12 @@ data class HourlyUnits(
     //chiant
 )
 
+// ultra omega chiant
 data class Hourly(
     val time: List<String>,
     val temperature_2m: List<Double?>,
     val relative_humidity_2m: List<Int?>,
+    val apparent_temperature: List<Double?>,
     val rain: List<Double?>,
     val wind_speed_10m: List<Double?>,
 )

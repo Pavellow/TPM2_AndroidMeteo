@@ -1,12 +1,12 @@
 package com.pavinciguerra.appli_android.data.models.local.dao
 
-import androidx.room.Delete
+import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.pavinciguerra.appli_android.data.models.local.FavoriteCity
 import com.pavinciguerra.appli_android.data.models.local.entities.WeatherCache
 
+@Dao
 interface WeatherCacheDao {
     @Query("SELECT * FROM weather_cache WHERE cityName = :cityName")
     suspend fun getWeatherCache(cityName: String): WeatherCache?
