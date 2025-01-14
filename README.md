@@ -30,3 +30,5 @@ Il s'agit du README du projet, dedans je mettrai mon avancée dans ce projet
 - 10h26 je reprends le code
 - 10h36 grosse flemme d'écrire les ViewModels et les factories qui vont avec
 - 10h45 au vu du peu de temps qu'il me reste je vais utiliser des librairies (retrofit, hilt, nanani nanana)
+
+- fast forward 14 janvier maintenant : bon
